@@ -1,0 +1,8 @@
+﻿@namespace DoonUI
+
+<input style="@Style" @attributes="AdditionalAttributes" />
+
+@code {
+    [Parameter] public string Style { get; set; }
+    [Parameter] public Dictionary<string, object> AdditionalAttributes { get; set; }
+}

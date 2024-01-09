@@ -1,0 +1,31 @@
+﻿@inherits LayoutComponentBase
+
+<div class="main-layout">
+    <header>
+        <nav>
+            <ul>
+                <li><NavLink href="/">Home</NavLink></li>
+                <li><NavLink href="/example">Examples</NavLink></li>
+                <!-- Add other navigation links as needed -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        @Body
+    </main>
+
+    <footer>
+        <!-- Your footer here -->
+    </footer>
+</div>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
+
+@code {
+    // Any C# code needed for the layout
+}

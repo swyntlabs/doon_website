@@ -1,0 +1,23 @@
+﻿@page "/example/button"
+@layout ExampleLayout
+
+<PageTitle>Button Example</PageTitle>
+
+<h3>Button Example</h3>
+<p>This is an example of the DoonButton component.</p>
+
+<DoonUI.DoonButton Width="100px" Height="70px" ButtonColor="red" OnClick="@ButtonClick">Click me</DoonUI.DoonButton>
+
+
+<p>The DoonButton component allows you to create buttons with custom width, height, colors, and handle click events.</p>
+
+
+@code {
+    private string clickMessage;
+
+    private void ButtonClick()
+    {
+        //
+    }
+}
+

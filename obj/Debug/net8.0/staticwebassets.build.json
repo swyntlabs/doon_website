@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "yCuZxIWyEAOIxBOrtM3mp7vRgm3uMEJqJJnv4fno1L8=",
+  "Source": "Doon",
+  "BasePath": "_content/Doon",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Doon\\wwwroot",
+      "Source": "Doon",
+      "ContentRoot": "\\\\Mac\\Home\\Documents\\bhiruva\\Doon\\wwwroot\\",
+      "BasePath": "_content/Doon",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "\\\\Mac\\Home\\Documents\\bhiruva\\Doon\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Doon.styles.css",
+      "SourceId": "Doon",
+      "SourceType": "Computed",
+      "ContentRoot": "\\\\Mac\\Home\\Documents\\bhiruva\\Doon\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Doon",
+      "RelativePath": "Doon.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "\\\\Mac\\Home\\Documents\\bhiruva\\Doon\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Doon.styles.css"
+    },
+    {
+      "Identity": "\\\\Mac\\Home\\Documents\\bhiruva\\Doon\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Doon.bundle.scp.css",
+      "SourceId": "Doon",
+      "SourceType": "Computed",
+      "ContentRoot": "\\\\Mac\\Home\\Documents\\bhiruva\\Doon\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Doon",
+      "RelativePath": "Doon.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "\\\\Mac\\Home\\Documents\\bhiruva\\Doon\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Doon.bundle.scp.css"
+    },
+    {
+      "Identity": "\\\\Mac\\Home\\Documents\\bhiruva\\Doon\\wwwroot\\app.css",
+      "SourceId": "Doon",
+      "SourceType": "Discovered",
+      "ContentRoot": "\\\\Mac\\Home\\Documents\\bhiruva\\Doon\\wwwroot\\",
+      "BasePath": "_content/Doon",
+      "RelativePath": "app.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    }
+  ]
+}

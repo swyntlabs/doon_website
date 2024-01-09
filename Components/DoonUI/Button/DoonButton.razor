@@ -1,0 +1,22 @@
+﻿@namespace DoonUI
+
+<button class="doon-button" style="@ButtonStyle" @onclick="OnClickMethod" @attributes="AdditionalAttributes">@ChildContent</button>
+
+@code {
+    [Parameter] public string Width { get; set; }
+    [Parameter] public string Height { get; set; }
+    [Parameter] public string ButtonColor { get; set; }
+    [Parameter] public EventCallback OnClick { get; set; }
+    [Parameter] public RenderFragment ChildContent { get; set; }
+    [Parameter] public Dictionary<string, object> AdditionalAttributes { get; set; }
+
+    private string ButtonStyle => $"width: {Width}; height: {Height}; background-color: {ButtonColor};";
+
+    private async Task OnClickMethod()
+    {
+        if (OnClick.HasDelegate)
+        {
+            await OnClick.InvokeAsync(null);
+        }
+    }
+}
